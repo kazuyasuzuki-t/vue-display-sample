@@ -1,25 +1,23 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
-      <Sample/>
+      <MainComponent />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Sample from './components/Sample.vue'
+import Main from './components/Main.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    MainComponent: Main,
   },
 
   data: () => ({
     //
   }),
-}
+};
 </script>
